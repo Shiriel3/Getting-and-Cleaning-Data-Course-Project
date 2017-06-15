@@ -41,9 +41,9 @@ These signals were used to estimate variables of the feature vector for each pat
 3.	Aggregate the data using dcast to take the mean of multiple measurments made for each variable for each activity and each subject and set
 
 ## Columns
-subject - The unique ID of the volunteer who performed the activity  
+* subject - The unique ID of the volunteer who performed the activity  
 
-activity - One of the following six activities:  
+* activity - One of the following six activities:  
 1. WALKING
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS
@@ -51,7 +51,7 @@ activity - One of the following six activities:
 5. STANDING
 6. LAYING  
 
-set - Either of the two sets of data:  
+* set - Either of the two sets of data:  
 1. TRAIN
 2. TEST
 
