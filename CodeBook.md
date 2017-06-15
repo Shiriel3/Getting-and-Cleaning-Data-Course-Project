@@ -42,6 +42,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ## Columns
 subject - The unique ID of the volunteer who performed the activity  
+
 activity - One of the following six activities:  
 1. WALKING
 2. WALKING_UPSTAIRS
@@ -49,6 +50,7 @@ activity - One of the following six activities:
 4. SITTING
 5. STANDING
 6. LAYING  
+
 set - Either of the two sets of data:  
 1. TRAIN
 2. TEST
