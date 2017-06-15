@@ -42,18 +42,16 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ## Columns
 * subject - The unique ID of the volunteer who performed the activity  
-
 * activity - One of the following six activities:  
-1. WALKING
-2. WALKING_UPSTAIRS
-3. WALKING_DOWNSTAIRS
-4. SITTING
-5. STANDING
-6. LAYING  
-
+  1. WALKING
+  2. WALKING_UPSTAIRS
+  3. WALKING_DOWNSTAIRS
+  4. SITTING
+  5. STANDING
+  6. LAYING  
 * set - Either of the two sets of data:  
-1. TRAIN
-2. TEST
+  1. TRAIN
+  2. TEST
 
 ##### For more info on the following columns, see the Feature Selection section:
 * tbodyacc_mean_x
