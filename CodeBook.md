@@ -30,8 +30,8 @@ These signals were used to estimate variables of the feature vector for each pat
 * fBodyGyroJerkMag
 
 ### The set of variables that were estimated from these signals and included in the final dataset are: 
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
 ## Transformations
 1.	Pre-merge formatting for each dataset (TRAIN and TEST)
@@ -43,15 +43,15 @@ std(): Standard deviation
 ## Columns
 subject - The unique ID of the volunteer who performed the activity
 activity - One of the following six activities:
-	WALKING
-	WALKING_UPSTAIRS
-	WALKING_DOWNSTAIRS
-	SITTING
-	STANDING
-	LAYING
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
 set - Either of the two sets of data:
-	TRAIN
-	TEST
+1. TRAIN
+2. TEST
 
 ##### For more info on the following columns, see the Feature Selection section:
 * tbodyacc_mean_x
@@ -121,6 +121,6 @@ set - Either of the two sets of data:
 * fbodybodygyrojerkmag_mean
 * fbodybodygyrojerkmag_std
 
-##Assumptions
+## Assumptions
 1.	The preservation of the distinction between datasets (TRAIN and TEST) in order to compare the differences between the two
 2.	Since there are only two types of signal measurments (time domain and frequency domain) the prefixes 't' and 'f' are determined to be tidy in their abbreviated form, rather than creating overly verbose variable names.
